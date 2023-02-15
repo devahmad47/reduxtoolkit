@@ -1,13 +1,210 @@
+
+*{
+padding: 0px;
+margin: 0px;
+list-style: none;
+box-sizing: border-box;
+
+}
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+img {
+margin-left: px; 
+width: 120px;
+  height: auto;
+}
+.card {
+    background: rgb(255, 245, 245);
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+  background-color: rgba(167, 198, 253, 0.458);
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.card:hover {
+  transform: scale(1.5);}
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.btn {
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #513282;
+}
+
+.heading {
+    padding: 25px 0;
+}
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.navLink {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace;}
+.cartCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px;
 }
+.carousel-caption{
+  font-size: 35px;
+  background-color: darkgoldenrod;
+  border-radius: 70%;
+}
+.carousel-caption p{
+  color: #fff;
+}
+.carousel-captions{
+  font-size: 40px;
+  text-align: center;
+  /* background-color: chocolate;  */
+  font-family:'Times New Roman', Times, serif;
+}
+.container {  
+  margin-top: 30px;  
+  color: rgb(60, 139, 3);  
+  }  
+  .design {  
+  color: pink;  
+  font-size: 20px;  
+  margin-top: 30px;  
+  }  
+ 
+  span {  
+  color: rgb(48, 47, 47);  
+  }
+  .header{
+    position: sticky;
+  }
+  .slider{
+    height: 600px;
+    width: auto;
+  }
+  .pro-clr{
+    background-color:  #fff;
+  }
+  .abt-clr{
+  background-color: #fff;}
+/* contact page */
+  .ct-clr{
+    background-color: #fff;
+  }
+  /* marquee */
+  .mrq-sz{
+     font-size: 20px;
+     font-family:'Times New Roman', Times, serif;
+     background-color: #fff;
+     color: rgb(183, 119, 0);
+     padding: 2px;
+     border-bottom: 1px solid rgb(184, 120, 0);
+  }
+  /* about page */
+  .abt-clr{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMutx5qNtmKnuHRw6L6pJ9pAyqsqcN5COUBbV8jM_N6xeOQ11O81B4YsLX5qxPBI_UOk&usqp=CAU");
+background-repeat: no-repeat;
+background-size: cover;
+}
+  /* whatsapp */
+  .logo{
+    position:fixed;
+    top: 85%;
+   left: 85%;
+  }
+  /* navbar */
+  header{
+    margin-top: -30px !important;
+  }
+  /* navbar logo */
+  .nimg{
+    background-image: url("./components/logop.png");
+    opacity: 1;
+    background-position: center;
+    background-size:contain
+  }
+/* external cards  */
+
+.img:hover
+{
+  font-size: 110%;
+}
+
+.text-reset:link
+{
+  text-decoration: none;
+}
+
+.text-reset:hover
+{
+  text-decoration: underline;
+  text-decoration-color:blue ;
+}
+
+.container1{
+border-radius: 4px;
+background: #fff;
+box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+background-color:#ffffff;
+margin: 4%;
+border:2px solid rgb(216, 213, 213);
+}
+
+.container1:hover{
+ transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+/* cards section */
+}
+.container2{
+  background-color: #cfcccc;
+}
+/* navbar menu */
+.menu{
+  font-size: 20px;
+}
+/* product page */
+
